@@ -1,6 +1,5 @@
 .InfoBox{
-    display: flex;
-    justify-content: center;
+    align-content: center;
 }
 .cardContainer{
     display: flex;
