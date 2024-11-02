@@ -17,10 +17,10 @@ export default function WeatherApp() {
         setWeatherInfo(newResult);
     }
     return(
-        <div style = {{textAlign: " center"}}>
-            <h2>Weather App</h2>
-            <SearchBox updateInfo={updateInfo}/>
+        <div className="weather-app">
+        <h2>Check the Weather</h2>
+            <SearchBox updateInfo={updateInfo} />
             <InfoBox info={weatherInfo} />
-        </div>
+    </div>
     );
 }
